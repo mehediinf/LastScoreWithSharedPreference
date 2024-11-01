@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#A7E959"
+    tools:context=".MainActivity">
+
+    
+    <TextView
+        android:id="@+id/txtViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Score : 0"
+        />
+    
+    <Button
+        android:id="@+id/increaseScoreId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increase Score"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.AppCompat.Button"
+        />
+
+    <Button
+        android:id="@+id/decreaseScoreId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="decrease Score"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.AppCompat.Button"
+        />
+    
+    
+
+</LinearLayout>
