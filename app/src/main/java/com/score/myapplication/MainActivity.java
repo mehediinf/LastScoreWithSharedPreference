@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
 
         if (view.getId()==R.id.increaseScoreId){
-
+            score = loadScore();
             score = score + 10;
             scoreTxtView.setText("Score : "+score);
             saveScore(score);
         }else if (view.getId()==R.id.decreaseScoreId){
-
+            score = loadScore();
             score = score - 10;
             scoreTxtView.setText("Score : "+score);
             saveScore(score);
